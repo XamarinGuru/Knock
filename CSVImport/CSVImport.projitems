@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>bb7abf38-44d9-45fa-9646-17a14ececd73</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CSVImport</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSV\csvOM2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Attivazione.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\HotelForConsole.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TipiNazione.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\UserForConsole.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSV\CSVResponseModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSV\ISaveAndLoad.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+" ""ID""";" ""Dal""";" ""Al""";" ""Data di prenotazione""";" ""Notti""";" ""Notti totali""";" ""Riferimento""";" ""Voucher""";" ""Acconto""";" ""Totale""";" ""Commissione""";" ""Tipo pagamento""";" ""Prepagata""";" ""Adulti""";" ""Esenti tassa""";" ""Bambini""";" ""Infanti""";" ""Camere""";" ""Camere totali""";" ""Provenienza""";" ""Contatti""";" ""Email di contatto"""
+1565;29/05/2016;01/06/2016;29/05/2016;3;3;XXX;;0;10.10;10.10;Contanti;NO;3;;0;0;(7) Camera A;1;Expedia;;marco@marco.com
+1566;29/05/2016;01/06/2016;30/05/2016;3;3;XXX;;0;10.10;10.10;Contanti;SI;2;;0;0;(4) Camera 4;1;Expedia;;marco@marco.com
+1567;30/05/2016;02/06/2016;30/05/2016;3;3;XXX;;0;10.10;10.10;Contanti;SI;2;;0;0;(2) Camera 2;1;Expedia;;marco@marco.com
+1568;30/05/2016;01/06/2016;30/05/2016;2;2;XXX;;0;10.10;10.10;Contanti;NO;2;;0;0;(5) Camera 5;1;Expedia;;marco@marco.com
+1569;30/05/2016;02/06/2016;30/05/2016;3;3;XXX;;0;10.10;10.10;Contanti;SI;2;;0;0;(8) Camera B;1;Expedia;;marco@marco.com
+1570;31/05/2016;04/06/2016;01/06/2016;4;4;XXX;;0;10.10;10.10;Contanti;NO;2;;0;0;(6) Camera 6;1;Expedia;;marco@marco.com

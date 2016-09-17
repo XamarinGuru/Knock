@@ -1,0 +1,5 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="__ReferenceID0" xmlns:ifpa="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions">
+  <ContentPage.Content>
+    <ifpa:CircleImage p5:BackgroundColor="#B8860B" BorderColor="#FF0000" p5:WidthRequest="50" p5:Source="" xmlns:p5="http://xamarin.com/schemas/2014/forms" />
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+{
+  "schema": "https://schemas.xenforms.com/xenproject/v1/",
+  "assemblies": [
+    {
+      "include": true,
+      "relativePath": "\\knock.Droid\\bin\\Debug\\Acr.Support.Android.dll"
+    },
+    {
+      "include": true,
+      "relativePath": "\\knock.Droid\\bin\\Debug\\Acr.UserDialogs.dll"
+    },
+    {
+      "include": true,
+      "relativePath": "\\knock.Droid\\bin\\Debug\\Acr.UserDialogs.Interface.dll"
+    }
+  ],
+  "views": null
+}

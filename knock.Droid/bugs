@@ -1,0 +1,34 @@
+FATAL EXCEPTION: IntentService[null]
+E/AndroidRuntime( 8930): Process: com.visual1993.knock, PID: 8930
+E/AndroidRuntime( 8930): md52ce486a14f4bcd95899665e9d932190b.JavaProxyThrowable: System.NullReferenceException: Object reference not set to an instance of an object
+E/AndroidRuntime( 8930):   at Gcm.Client.GcmServiceBase.OnHandleIntent (Android.Content.Intent intent) [0x00010] in <filename unknown>:0 
+E/AndroidRuntime( 8930):   at Android.App.IntentService.n_OnHandleIntent_Landroid_content_Intent_ (IntPtr jnienv, IntPtr native__this, IntPtr native_intent) [0x00011] in <filename unknown>:0 
+E/AndroidRuntime( 8930):   at (wrapper dynamic-method) System.Object:58e598e4-56a5-46de-b357-a162934437d9 (intptr,intptr,intptr)
+E/AndroidRuntime( 8930): 	at md5214eafb7e7b3b7fcc363a68a6358563f.GcmServiceBase.n_onHandleIntent(Native Method)
+E/AndroidRuntime( 8930): 	at md5214eafb7e7b3b7fcc363a68a6358563f.GcmServiceBase.onHandleIntent(GcmServiceBase.java:43)
+E/AndroidRuntime( 8930): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+E/AndroidRuntime( 8930): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 8930): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 8930): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+
+Reject to launch app com.visual1993.knock/11027 for broadcast: App Op 48 
+03-15 16:25:59.428	system_server	650	672	W	BroadcastQueue	 Reject to launch app com.visual1993.knock/11027 for broadcast: App Op 48 
+03-15 16:25:59.432	com.google.android.gms.persistent	22091	-	W	GCM-DMM 	 broadcast intent callback: result=CANCELLED forIntent { act=com.google.android.c2dm.intent.RECEIVE pkg=com.visual1993.knock (has extras) } 
+
+
+
+IN RELEASE MODE THE APP IS KILLED AFTER SOME TIME OR RAM GETTING LOW
+03-15 16:48:11.981	system_server	650	747	W	InputDispatcher	 channel '31323a21 com.visual1993.knock/md50c08674a16bad44df522d981a4d37cfe.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9 
+03-15 16:48:11.981	system_server	650	747	E	InputDispatcher	 channel '31323a21 com.visual1993.knock/md50c08674a16bad44df522d981a4d37cfe.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed! 
+03-15 16:48:11.981	system_server	650	1448	I	ActivityManager	 Process com.visual1993.knock (pid 8756) has died 
+03-15 16:48:11.981	system_server	650	1448	W	ActivityManager	 App Op not allow to restart app com.visual1993.knock/11027 
+03-15 16:48:11.982	system_server	650	1180	I	WindowState	 WIN DEATH: Window{31323a21 u0 com.visual1993.knock/md50c08674a16bad44df522d981a4d37cfe.MainActivity} 
+03-15 16:48:11.983	system_server	650	1180	W	InputDispatcher	 Attempted to unregister already unregistered input channel '31323a21 com.visual1993.knock/md50c08674a16bad44df522d981a4d37cfe.MainActivity (server)' 
+03-15 16:48:30.040	com.google.android.gms.persistent	22091	2416	I	GCM     	 GCM message com.visual1993.knock 0:1458056910359613%bd858335f9fd7ecd 
+
+IN DEBUG MODE, THE APP IS KILLED AFTER RAM GETTING LOW
+03-15 17:15:04.742	system_server	650	1455	I	ActivityManager	 Killing 16007:com.visual1993.knock/u0a1051 (adj 10): kill background 
+03-15 17:15:04.873	system_server	650	665	I	WindowState	 WIN DEATH: Window{c01e930 u0 com.visual1993.knock/md50c08674a16bad44df522d981a4d37cfe.MainActivity} 
+03-15 17:15:04.949	system_server	650	1455	W	ActivityManager	 App Op not allow to restart app com.visual1993.knock/11051 
+03-15 17:15:05.077	system_server	650	764	W	ActivityManager	 Spurious death for ProcessRecord{3acccb 16007:com.visual1993.knock/u0a1051}, curProc for 16007: null 

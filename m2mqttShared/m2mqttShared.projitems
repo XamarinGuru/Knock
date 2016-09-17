@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{EE93FEF6-3EF4-4BDB-B4E0-D5E3F7053924}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>m2mqttShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\MqttClientException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\MqttCommunicationException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\MqttConnectionException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\MqttTimeoutException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\InternalEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\MsgInternalEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\MsgPublishedInternalEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgConnack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgConnect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgConnectEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgDisconnect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPingReq.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPingResp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPuback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPubcomp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPublish.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPublishedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPublishEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPubrec.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgPubrel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgSuback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgSubscribe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgSubscribedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgSubscribeEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgUnsuback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgUnsubscribe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgUnsubscribedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\MqttMsgUnsubscribeEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Fx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\MqttNetworkChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Session\MqttBrokerSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Session\MqttClientSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Session\MqttSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\QueueExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Trace.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IMqttNetworkChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MqttClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MqttSecurity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MqttSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Exceptions\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Internal\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Messages\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Net\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Session\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Utility\" />
+    <Folder Include="$(MSBuildThisFileDirectory)M2Mqtt\" />
+  </ItemGroup>
+</Project>
